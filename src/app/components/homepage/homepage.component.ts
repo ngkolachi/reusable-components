@@ -12,4 +12,10 @@ export class HomepageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // get data in parent from child
+  getSelectedItems(event) {
+    console.log("selected items got in parent", event);
+    
+  }
+
 }
